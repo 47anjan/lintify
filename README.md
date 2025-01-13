@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lintify
 
-## Getting Started
+AI Review App is a web application built using Next.js, TypeScript, and OpenAI's API. It allows users to generate insightful reviews for various products, services, or experiences using the power of artificial intelligence.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **AI-Powered Review Generation:** Leverage OpenAI's API to create detailed and meaningful reviews.
+- **User-Friendly Interface:** Intuitive design for a seamless user experience.
+- **Customizable Review Parameters:** Users can specify the tone, length, and focus of the generated reviews.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** [Next.js](https://nextjs.org/) (React framework for server-side rendering and static site generation)
+- **Language:** TypeScript (strongly-typed JavaScript for better code quality)
+- **AI Integration:** [OpenAI API](https://platform.openai.com/docs/)
+- **Styling:** Tailwind CSS or CSS Modules (customizable and modern styling solutions)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/47anjan/lintify
+   cd lintify
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Deploy on Vercel
+3. Set up environment variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Create a `.env.local` file in the root of the project and add your OpenAI API key:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   The app will be available at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+1. Open the app in your browser.
+2. Enter the product, service, or experience you want a review for.
+3. Adjust parameters such as tone, length, or focus.
+4. Click "Generate Review" to receive an AI-generated review.
+
+## Deployment
+
+To deploy the app, you can use [Vercel](https://vercel.com/):
+
+1. Push your code to a Git repository (e.g., GitHub).
+2. Connect your repository to Vercel.
+3. Set up the `OPENAI_API_KEY` environment variable in the Vercel dashboard.
+4. Deploy your application with a single click.
+
+## Contributing
+
+Contributions are welcome! If you have ideas, suggestions, or issues, feel free to open a pull request or issue.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [OpenAI API Documentation](https://platform.openai.com/docs/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+---
+
+Happy building! 🚀
