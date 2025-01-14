@@ -1,6 +1,6 @@
 # Lintify
 
-AI Review App is a web application built using Next.js, TypeScript, and OpenAI's API. It allows users to generate insightful reviews for various products, services, or experiences using the power of artificial intelligence.
+AI Code Review App is a web application built using Next.js, TypeScript, and OpenAI's API. It allows users to generate insightful reviews for various products, services, or experiences using the power of artificial intelligence.
 
 ## Features
 
